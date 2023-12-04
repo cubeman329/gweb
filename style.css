@@ -1,0 +1,73 @@
+body {
+    background: #111;
+    color: white;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+.title {
+    text-shadow: 0px 0px 5px white;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.selector {
+    border-radius: 15px;
+    background: linear-gradient(#000, #222);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+.content {
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    height: 190px;
+    width: 190px;
+    margin: 5px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: invert;     */
+}
+.name {
+    text-shadow: 0px 0px 5px white;
+    margin: 5px;
+    top: 3px;
+
+}
+.launchimg {
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+}
+.launch {
+    background: #9900dd;
+    box-shadow: 0px 0px 5px #9900dd;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 17px;
+    border-radius: 10px;
+    transition: 0.15s ease-in-out;
+    text-shadow: 0px 0px 5px grey;
+}
+.launch:hover{
+    background: #bb00ff;
+    box-shadow: 0px 0px 13px #bb00ff;
+    scale: 1.1;
+}
+.launch:active{
+  background: #7700ff;
+  box-shadow: 0px 0px 13px #7700ff;
+  scale: 1.1;
+}
